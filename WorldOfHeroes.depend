@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1559546062 source:/home/sheplu/Desktop/Supinfo/WorldOfHeroes/src/Character.cpp
+	"Character.h"
+	<iostream>
+
+1559546001 /home/sheplu/Desktop/Supinfo/WorldOfHeroes/include/Character.h
+	<iostream>
+
+1559546195 source:/home/sheplu/Desktop/Supinfo/WorldOfHeroes/src/Magician.cpp
+	"Magician.h"
+
+1559546150 /home/sheplu/Desktop/Supinfo/WorldOfHeroes/include/Magician.h
+	<iostream>
+	<Character.h>
+
+1559538393 source:/home/sheplu/Desktop/Supinfo/WorldOfHeroes/src/Sorcerer.cpp
+	"Sorcerer.h"
+
+1559538393 /home/sheplu/Desktop/Supinfo/WorldOfHeroes/include/Sorcerer.h
+	<Magician.h>
+
+1559538410 source:/home/sheplu/Desktop/Supinfo/WorldOfHeroes/src/Warlock.cpp
+	"Warlock.h"
+
+1559538410 /home/sheplu/Desktop/Supinfo/WorldOfHeroes/include/Warlock.h
+	<Magician.h>
+
+1559546073 source:/home/sheplu/Desktop/Supinfo/WorldOfHeroes/src/Fighter.cpp
+	"Fighter.h"
+
+1559546007 /home/sheplu/Desktop/Supinfo/WorldOfHeroes/include/Fighter.h
+	<iostream>
+	<Character.h>
+
+1559538352 source:/home/sheplu/Desktop/Supinfo/WorldOfHeroes/src/Paladin.cpp
+	"Paladin.h"
+
+1559538352 /home/sheplu/Desktop/Supinfo/WorldOfHeroes/include/Paladin.h
+	<Fighter.h>
+
+1559538372 source:/home/sheplu/Desktop/Supinfo/WorldOfHeroes/src/Swordman.cpp
+	"Swordman.h"
+
+1559538372 /home/sheplu/Desktop/Supinfo/WorldOfHeroes/include/Swordman.h
+	<Fighter.h>
+
+1559546098 source:/home/sheplu/Desktop/Supinfo/WorldOfHeroes/main.cpp
+	<iostream>
+	"Character.h"
+	"Fighter.h"
+	"Magician.h"
+	"Paladin.h"
+	"Swordman.h"
+	"Sorcerer.h"
+	"Warlock.h"
+

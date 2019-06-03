@@ -1,20 +1,30 @@
 #ifndef CHARACTER_H
 #define CHARACTER_H
 
+#include <iostream>
 
 class Character
 {
     public:
-        Character();
+        Character(int lvl=1, int hp=100, int xp=0);
         virtual ~Character();
 
-        unsigned int GetCounter() { return m_Counter; }
-        void SetCounter(unsigned int val) { m_Counter = val; }
+        void displayInformation(void);
+
+        int getLevel(void);
+        int getLife(void);
+        int getExperience(void);
+
+        void setLevel(int lvl);
+        void setLife(int hp);
+        void setExperience(int xp);
 
     protected:
 
     private:
-        unsigned int m_Counter;
+        int level;
+        int life;
+        int experience;
 };
 
 #endif // CHARACTER_H
